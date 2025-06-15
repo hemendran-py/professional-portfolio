@@ -131,8 +131,15 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "finance management web app built with Next.js, designed to help users track income and expenses efficiently.",
-      technologies: ["Next.js", "Typescript", "MySQL", "Prisma", "TailwindCSS"],
+        "finance management web app built with Next.js, designed to help users track income and expenses efficiently .",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "MySQL",
+        "MongoDB",
+        "Prisma",
+        "TailwindCSS",
+      ],
       links: [
         {
           type: "Website",
@@ -156,6 +163,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
         "TailwindCSS",
         "CSS",
         "Shadcn UI",
+        "node.js",
       ],
       links: [
         {
@@ -169,7 +177,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/skillscan.png",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
@@ -178,17 +186,8 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "A lightweight Spotify widget that displays your recently played tracks — easily embeddable on personal websites or blogs to share your music taste in real time.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "spotify-web-api",
-        "OAuth",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "OAuth",
-      ],
+        "A lightweight Spotify widget that displays your recently played tracks — easily embeddable on personal websites or blogs.",
+      technologies: ["Next.js", "spotify-web-api", "OAuth", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -196,7 +195,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/spotifywebappcomponent.jpg",
       video: "",
     },
     {
@@ -205,15 +204,15 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "A clean and responsive personal portfolio showcasing my projects, skills, and experiences in tech and development.",
+        "A clean and responsive personal site showcasing my projects, skills, and experiences in tech.",
       technologies: [
         "Next.js",
         "Typescript",
+        "vercel",
 
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
-        "OAuth",
       ],
       links: [
         {
@@ -222,7 +221,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/personalwebsite.jpg",
       video: "",
     },
     {

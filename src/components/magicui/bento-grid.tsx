@@ -60,7 +60,7 @@ const BentoCard = ({
     {/* Static background layer */}
     {image && (
       <div
-        className="absolute top-0 right-0 bottom-52 left-0 z-0  bg-cover opacity-100 pointer-events-none"
+        className="absolute top-0 right-0 bottom-56  left-0 z-0  bg-cover opacity-100 pointer-events-none"
         style={{ backgroundImage: `url(${image})` }}
       />
     )}
@@ -69,7 +69,7 @@ const BentoCard = ({
     <div>{background}</div>
 
     {/* Foreground content (animated) */}
-    <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
+    <div className="pointer-events-none bg-background  z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
       <Icon className="h-12 w-12 origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75" />
       <h3 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300">
         {name}

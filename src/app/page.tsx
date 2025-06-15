@@ -1,4 +1,3 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -145,8 +144,11 @@ export default function Page() {
         </div>
       </section>
       <section className="py-10 max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">🚀 My Projects</h2>
-
+        <BlurFade delay={BLUR_FADE_DELAY * 8.5}>
+          <h2 className="text-3xl font-bold mb-8 text-center">
+            Projects I've Built
+          </h2>
+        </BlurFade>
         <BentoGrid>
           {DATA.projects.map((project, index) => (
             <BlurFade key={index} delay={BLUR_FADE_DELAY * 9 + index * 0.05}>
