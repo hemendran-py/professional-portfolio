@@ -10,7 +10,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/chennai",
   description:
     "20-year old Student Developer. I love building things and helping people.",
-  summary: `At the end of my third year in computer science, I shifted my focus from just academics to **building real-world projects and scalable products**. I’ve interned in **cloud infrastructure**, **security analysis**, and **full-stack development** while consistently learning through hands-on work. Along the way, I’ve built multiple projects. I'm now focused on using my skills to **solve meaningful problems**, contribute to open source, and explore opportunities in **cloud and DevOps**.  
+  summary: `At the end of my third year in computer science, I shifted my focus from just academics to **building real-world projects and scalable products**. I have interned in **cloud infrastructure**, **security analysis**, and **full-stack development** while consistently learning through hands-on work. Along the way, I&apos;ve built multiple projects. I&apos;m now focused on using my skills to **solve meaningful problems**, contribute to open source, and explore opportunities in **cloud and DevOps**.  
 Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).`,
   avatarUrl: "/me.png",
   skills: [
@@ -116,7 +116,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
       end: "2022",
     },
     {
-      school: "St.John's English School and Junior College",
+      school: "St.Johns English School and Junior College",
       href: "/",
       degree: "Higher Secondary Education",
       logoUrl: "/stjohns.png",

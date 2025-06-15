@@ -146,7 +146,7 @@ export default function Page() {
       <section className="py-10 max-w-6xl mx-auto px-4">
         <BlurFade delay={BLUR_FADE_DELAY * 8.5}>
           <h2 className="text-3xl font-bold mb-8 text-center">
-            Projects I've Built
+            Projects I have Built
           </h2>
         </BlurFade>
         <BentoGrid>
@@ -157,11 +157,11 @@ export default function Page() {
                 description={project.description}
                 href={project.href}
                 cta="Visit Project"
-                className=" "
+                className="" // ✅ Add this line
                 image={project.image}
                 background={<div />} // leave empty
                 Icon={() => null} // skip icon
-                technologies={project.technologies}
+                technologies={[...project.technologies]}
               />
             </BlurFade>
           ))}
