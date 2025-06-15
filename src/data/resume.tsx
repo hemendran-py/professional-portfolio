@@ -140,7 +140,7 @@ Explore more of my work at [Hemendran.vercel.app](https://hemendran.vercel.app).
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/finwise.jpg",
       video: "",
     },
     {

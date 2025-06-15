@@ -155,7 +155,8 @@ export default function Page() {
                 description={project.description}
                 href={project.href}
                 cta="Visit Project"
-                className=""
+                className=" "
+                image={project.image}
                 background={<div />} // leave empty
                 Icon={() => null} // skip icon
                 technologies={project.technologies}
