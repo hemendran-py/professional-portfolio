@@ -22,7 +22,7 @@ export default function Page() {
           delay={BLUR_FADE_DELAY}
           className="overflow-hidden rounded-[15px] hero"
         >
-          <div className="mx-auto w-full max-w-6xl space-y-8  p-4 ">
+          <div className="mx-auto w-full max-w-6xl space-y-8  p-2 ">
             <div className="gap-2 flex items-start">
               <div className="flex-col flex flex-1 space-y-1.5">
                 <BlurFadeText
@@ -38,7 +38,7 @@ export default function Page() {
                 </BlurFade>
               </div>
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <Avatar className="size-28 border">
+                <Avatar className="size-28 ">
                   <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
