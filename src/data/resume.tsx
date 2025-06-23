@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "20-year old Student Developer. I love building things and helping people.",
   summary: `At the end of my third year in computer science, I shifted my focus from just academics to **building real-world projects and scalable products**. I have interned in **cloud infrastructure**, **security analysis**, and **full-stack development** while consistently learning through hands-on work. Along the way, I&apos;ve built multiple projects. I&apos;m now focused on using my skills to **solve meaningful problems**, contribute to open source, and explore opportunities in **cloud and DevOps**.  
-Explore more of my work at [Hemendran.vercel.app](https://hemendracodes.vercel.app).`,
+Explore more of my work at [Hemendran.codes](https://hemendrancodes.vercel.app).`,
   avatarUrl: "/me.jpg",
   skills: [
     "React",
